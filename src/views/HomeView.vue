@@ -1,5 +1,6 @@
 <template>
   <div>
+    <el-button type="primary">默认按钮</el-button>
     <template v-for="item in list">
       <ListItem :key="item.id" :info="item" @finish="finish"></ListItem>
     </template>

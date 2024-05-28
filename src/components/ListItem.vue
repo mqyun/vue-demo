@@ -14,7 +14,9 @@
 export default {
   name: "ListItem",
 
-  props: ["info"],
+  props: {
+    info: Object,
+  },
 
   methods: {
     onClick() {

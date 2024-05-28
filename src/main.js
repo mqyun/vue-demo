@@ -3,7 +3,11 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 
+import { Button } from "element-ui";
+
 Vue.config.productionTip = false;
+
+Vue.component(Button.name, Button);
 
 new Vue({
   router,
