@@ -30,6 +30,7 @@ export default {
       });
       if (res.status === 200) {
         this.list = res.list;
+        console.log("dwd");
       }
     },
   },
