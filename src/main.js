@@ -4,6 +4,9 @@ import router from "./router";
 import store from "./store";
 
 import { Button } from "element-ui";
+import vConsole from "vconsole";
+
+new vConsole();
 
 Vue.config.productionTip = false;
 
